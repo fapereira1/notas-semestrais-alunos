@@ -13,6 +13,7 @@ void imprimeResultadoMediaGeometrica();
 void mostrarResultados();
 void escreverParaArquivo();
 void verificarNotasCadastradas();
+void imprimeMaiorMenorMediana();
 int opcao;
 
 Notas* memStorage;
@@ -127,6 +128,10 @@ void mostrarResultados()
             pressEnterToContinue();
             desenharMenuResultados();
             break;
+        case 4:
+            imprimeMaiorMenorMediana();
+            pressEnterToContinue();
+            desenharMenuResultados();
         case 8:
             pressEnterToContinue();
             inicioPrograma();
@@ -204,6 +209,33 @@ void imprimeResultadoMediaGeometrica()
         printf("\n------------------------------------------------------\n");
     }
     printf("------------------------------------------------------\n");
+}
+
+void imprimeMaiorMenorMediana() {
+
+    Notas maior;
+    Notas menor;
+
+    maior = memStorage[0];
+    menor = memStorage[0];
+
+    for (int i = 0; i < tamanhoAlunos; i++) {
+
+        if (memStorage[i].media >= maior.media) {
+                maior = memStorage[i];
+        }
+    }
+
+    for (int i = 0; i < tamanhoAlunos; i++) {
+
+        if (memStorage[i].media <= maior.media) {
+                menor = memStorage[i];
+        }
+    }
+
+    printf("Aluno de Maior Media: %s com media %f\n", maior.nome, maior.media);
+    printf("Aluno de Menor Media: %s com media %f\n", menor.nome, menor.media);
+
 }
 
 void pressEnterToContinue()

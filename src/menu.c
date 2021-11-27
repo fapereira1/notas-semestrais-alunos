@@ -39,6 +39,7 @@ void desenharMenuResultados()
     textoEsquerda("1 - Media Aritmetica");
     textoEsquerda("2 - Media Ponderada");
     textoEsquerda("3 - Media Geometrica");
+    textoEsquerda("4 - Maior e Menor Media");
     textoEsquerda("8 - Voltar Menu Principal");
     linhaBranco(1);
 

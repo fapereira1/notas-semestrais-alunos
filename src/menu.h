@@ -1,8 +1,10 @@
 #ifndef MENU_H
 #define MENU_H
 
-void drawMainMenu();
+void desenhaMenuPrincipal();
 
-void drawCadastroMenu();
+void desenhaMenuCadastro();
+
+void desenharMenuResultados();
 
 #endif // MENU_H

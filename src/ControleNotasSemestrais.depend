@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1638036538 source:c:\users\faper\github\notas-semestrais-alunos\src\menu.c
+	<stdio.h>
+	"menu.h"
+	<windows.h>
+
+1638034686 c:\users\faper\github\notas-semestrais-alunos\src\menu.h
+
+1638036219 source:c:\users\faper\github\notas-semestrais-alunos\src\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"menu.h"
+	"notas.h"
+
+1638035000 c:\users\faper\github\notas-semestrais-alunos\src\notas.h
+
+1638034999 source:c:\users\faper\github\notas-semestrais-alunos\src\notas.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"notas.h"
+

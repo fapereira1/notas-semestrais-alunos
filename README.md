@@ -1,7 +1,9 @@
 # Controle de Notas Semestrais
 
 **Descrição:** Programa para ler notas semestrais de N alunos (qtde informada pelo usuário) e verificar média e aprovação.
-Requisitos: Os dados devem ser armazenados em uma matriz com N linhas e quatro colunas; cada linha se refere aos dados de cada aluno; cada coluna se refere à nota de um bimestre. Calcular a média de cada um dos alunos e dizer se o aluno foi aprovado ou não (a média é igual a sete).
+Requisitos: Os dados devem ser armazenados em uma matriz com N linhas e quatro colunas; cada linha se refere aos dados de cada aluno; cada coluna se refere à nota de um bimestre. 
+
+Calcular a média de cada um dos alunos e dizer se o aluno foi aprovado ou não (a média é igual a sete).
 
 O programa deve informar:
 
